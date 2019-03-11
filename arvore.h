@@ -1,0 +1,11 @@
+typedef struct arvore *arv;
+arv cria();
+int dados();
+arv ins(arv a,int val);
+int vazia(arv a);
+void busca(arv a,int val);
+arv libera(arv a);
+arv remo(arv a,int val);
+void prefes(arv a);
+void cenesq(arv a);
+void posfes(arv a);
