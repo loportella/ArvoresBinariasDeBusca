@@ -76,9 +76,11 @@ arv remo(arv a,int v){
 }
 void prefes(arv a){
 	if(vazia(a)!=0){
-		printf("%d, ",a->n);
+		printf("(");
+		printf("%d",a->n);
 		prefes(a->esq);
 		prefes(a->dir);
+		printf(")");
 	}
 }
 void cenesq(arv a){
